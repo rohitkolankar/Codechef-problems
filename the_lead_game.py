@@ -23,8 +23,8 @@ for i in range(n):
         lst.append((lead,2))
         
 lst.sort(reverse=True)
-print(lst)
-#print(lst[0][1])
-#print(lst[0][0])
+
+print(lst[0][1],end=" ")
+print(lst[0][0])
 
 
